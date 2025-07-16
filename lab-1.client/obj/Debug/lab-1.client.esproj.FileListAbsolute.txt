@@ -1,0 +1,2 @@
+C:\Users\agong\OneDrive\Desktop\Lab-1\lab-1.client\obj\Debug\lab-1.client.esproj.CoreCompileInputs.cache
+C:\Users\agon\Desktop\Lab-1\lab-1.client\obj\Debug\lab-1.client.esproj.CoreCompileInputs.cache
