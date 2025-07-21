@@ -18,7 +18,7 @@ namespace Lab_1.Server.Migrations
                 .HasAnnotation("ProductVersion", "8.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("Lab_1.Server.Models.User", b =>
+            modelBuilder.Entity("Lab1.Server.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -28,9 +28,12 @@ namespace Lab_1.Server.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(65,30)");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Products");
                 });
 #pragma warning restore 612, 618
         }
