@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:61190",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\agon\\Desktop\\Lab-1\\Lab-1.Server\\..\\lab-1.client",
+"WorkingDirectory": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\..\\lab-1.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

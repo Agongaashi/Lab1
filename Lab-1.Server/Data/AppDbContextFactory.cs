@@ -1,10 +1,10 @@
-﻿using Lab_1.Data;
+﻿using Lab_1.Server.Data;  // Ky është namespace ku supozohet është AppDbContext
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace Lab_1.Data // 👈 Kujdes që namespace të përputhet me folderin
+namespace Lab_1.Server.Data  // Ndrysho namespace sipas strukturës së folderit tënd
 {
     public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
     {
