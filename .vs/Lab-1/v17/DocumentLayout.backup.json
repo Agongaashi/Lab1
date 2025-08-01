@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\agon\\Desktop\\Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\controllers\\admin\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\controllers\\admin\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\models\\admin\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\models\\admin\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\services\\iuserdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\services\\iuserdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\services\\userdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\services\\userdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\services\\authservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\services\\authservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +67,165 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\Class1.cs",
-              "RelativeDocumentMoniker": "Lab-1.Server\\Models\\Class1.cs",
-              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\Class1.cs",
-              "RelativeToolTip": "Lab-1.Server\\Models\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T11:31:41.04Z",
+              "Title": "LoginPage.jsx",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\pages\\LoginPage.jsx",
+              "RelativeDocumentMoniker": "lab-1.client\\src\\pages\\LoginPage.jsx",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\pages\\LoginPage.jsx",
+              "RelativeToolTip": "lab-1.client\\src\\pages\\LoginPage.jsx",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-31T12:34:41.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class.cs",
-              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\Class.cs",
-              "RelativeDocumentMoniker": "Lab-1.Server\\Models\\Class.cs",
-              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\Class.cs",
-              "RelativeToolTip": "Lab-1.Server\\Models\\Class.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "RegisterPage.jsx",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\pages\\RegisterPage.jsx",
+              "RelativeDocumentMoniker": "lab-1.client\\src\\pages\\RegisterPage.jsx",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\pages\\RegisterPage.jsx",
+              "RelativeToolTip": "lab-1.client\\src\\pages\\RegisterPage.jsx",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAwwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-31T12:30:06.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Controllers\\Admin\\RolesController.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Controllers\\Admin\\RolesController.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Controllers\\Admin\\RolesController.cs",
+              "RelativeToolTip": "Lab-1.Server\\Controllers\\Admin\\RolesController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T11:20:36.771Z"
+              "WhenOpened": "2025-07-30T14:26:07.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Services\\TokenService.cs",
+              "RelativeToolTip": "Lab-1.Server\\Services\\TokenService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:24:50.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Services\\AuthService.cs",
+              "RelativeToolTip": "Lab-1.Server\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:46:57.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Models\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\RegisterRequest.cs",
+              "RelativeToolTip": "Lab-1.Server\\Models\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T08:44:40.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Program.cs",
+              "RelativeToolTip": "Lab-1.Server\\Program.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAIwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:54:48.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\Admin\\Role.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Models\\Admin\\Role.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\Admin\\Role.cs",
+              "RelativeToolTip": "Lab-1.Server\\Models\\Admin\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:17:40.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\User.cs",
+              "RelativeToolTip": "Lab-1.Server\\Models\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:18:32.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Lab-1.Server\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA+wBgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:09:41.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserDataService.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Services\\IUserDataService.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Services\\IUserDataService.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Services\\IUserDataService.cs",
+              "RelativeToolTip": "Lab-1.Server\\Services\\IUserDataService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:51:41.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDataService.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Services\\UserDataService.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Services\\UserDataService.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Services\\UserDataService.cs",
+              "RelativeToolTip": "Lab-1.Server\\Services\\UserDataService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAIAwwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:00:04.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "authService.js",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\services\\authService.js",
+              "RelativeDocumentMoniker": "lab-1.client\\src\\services\\authService.js",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\services\\authService.js",
+              "RelativeToolTip": "lab-1.client\\src\\services\\authService.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-30T08:38:30.187Z"
             }
           ]
         }
