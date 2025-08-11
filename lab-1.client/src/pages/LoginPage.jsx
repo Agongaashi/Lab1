@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { login } from '../services/authService';
+import { login, getUserFromToken } from '../services/authService';
+import { useNavigate } from 'react-router-dom';
 
-export default function LoginPage() {
+export default function LoginPage({ setUser }) {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -20,7 +22,14 @@ export default function LoginPage() {
             }
 
             await login({ email, password });
-            window.location.href = '/dashboard';
+            const user = getUserFromToken();
+            setUser(user);  // Përditëson gjendjen e user-it në App.js
+
+            if (user?.role === "Admin") {
+                navigate('/dashboard');
+            } else {
+                navigate('/home');
+            }
         } catch (err) {
             setError("Login failed. Check your credentials.");
             console.error(err);
@@ -62,7 +71,8 @@ export default function LoginPage() {
                 </form>
 
                 <p className="mt-4 text-sm text-center text-gray-600">
-                    Don't have an account? <a href="/register" className="text-purple-600 hover:underline">Register</a>
+                    Don't have an account?{" "}
+                    <a href="/register" className="text-purple-600 hover:underline">Register</a>
                 </p>
             </div>
         </div>
