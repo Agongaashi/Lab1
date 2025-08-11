@@ -11,18 +11,11 @@ namespace Lab_1.Server.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
-
-
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    base.OnModelCreating(modelBuilder);
-
-        //    modelBuilder.Entity<User>()
-        //        .HasOne(u => u.Role)
-        //        .WithMany()
-        //        .HasForeignKey(u => u.RoleName)
-        //        .HasPrincipalKey(r => r.RoleName);
-        //}
+        public DbSet<ShippingAddress> ShippingAddresses { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<OrderProduct> OrderProducts { get; set; }
 
     }
 }

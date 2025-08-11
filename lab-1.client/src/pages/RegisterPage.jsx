@@ -21,8 +21,9 @@ export default function RegisterPage() {
         setError('');
         setLoading(true);
 
-        const { username, email, password, confirmPassword } = form;
+        const { username, email, password, confirmPassword, roleName } = form;
 
+        // Validimi bazik
         if (!email || !password || !username || !confirmPassword) {
             setError("Please fill in all fields.");
             setLoading(false);
@@ -36,11 +37,15 @@ export default function RegisterPage() {
         }
 
         try {
-            await register(form);
+            const registerData = { username, email, password, roleName };
+            console.log("Register data sent:", registerData);
+
+            await register(registerData);
+
             window.location.href = '/login';
         } catch (err) {
-            setError("Registration failed. Try again.");
-            console.error(err);
+            setError(err.response?.data?.message || "Registration failed. Try again.");
+            console.error("Register error:", err.response?.data || err.message);
         } finally {
             setLoading(false);
         }
@@ -107,7 +112,8 @@ export default function RegisterPage() {
                 </form>
 
                 <p className="mt-4 text-sm text-center text-gray-600">
-                    Already have an account? <a href="/login" className="text-purple-600 hover:underline">Login</a>
+                    Already have an account?{" "}
+                    <a href="/login" className="text-purple-600 hover:underline">Login</a>
                 </p>
             </div>
         </div>
