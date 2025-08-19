@@ -265,3 +265,4 @@ C:\Users\agon\Desktop\Lab1\Lab-1.Server\bin\Debug\net8.0\Lab-1.Server.runtimecon
 C:\Users\agon\Desktop\Lab1\Lab-1.Server\bin\Debug\net8.0\Lab-1.Server.pdb
 C:\Users\agon\Desktop\Lab1\Lab-1.Server\obj\Debug\net8.0\Lab-1.Server.genruntimeconfig.cache
 C:\Users\agon\Desktop\Lab1\Lab-1.Server\obj\Debug\net8.0\ref\Lab-1.Server.dll
+C:\Users\agon\Desktop\Lab1\Lab-1.Server\bin\Debug\net8.0\Lab-1.Server.staticwebassets.runtime.json

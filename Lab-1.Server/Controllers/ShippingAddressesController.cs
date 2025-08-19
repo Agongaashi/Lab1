@@ -40,7 +40,9 @@ namespace Lab_1.Server.Controllers
 
             var createdAddress = await _context.ShippingAddresses
                 .Include(sa => sa.User)
-                .FirstOrDefaultAsync(sa => sa.Id == address.Id);
+                //.FirstOrDefaultAsync(sa => sa.Id == address.Id);
+                .OrderBy(a => a.Id)
+                .ToListAsync();
 
             return Ok(createdAddress);
         }

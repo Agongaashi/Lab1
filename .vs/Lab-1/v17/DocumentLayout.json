@@ -3,20 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\agon\\Desktop\\Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\services\\authservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\services\\authservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\pages\\orderspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\pages\\orderspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\pages\\cartpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\pages\\cartpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\services\\orderservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\services\\orderservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\controllers\\shippingaddressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\controllers\\shippingaddressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\pages\\shoppage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\pages\\shoppage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\admin\\adminproductspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\admin\\adminproductspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\services\\productservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\services\\productservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|c:\\users\\agon\\desktop\\lab1\\lab-1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53967A99-00F3-452B-9918-B15CF72884E5}|Lab-1.Server\\Lab-1.Server.csproj|solutionrelative:lab-1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\services\\authservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\services\\authservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\services\\cartservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\services\\cartservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|c:\\users\\agon\\desktop\\lab1\\lab-1.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0607D235-7CDC-15C0-3E67-B5744E5B53D0}|lab-1.client\\lab-1.client.esproj|solutionrelative:lab-1.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +86,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\App.jsx",
-              "RelativeDocumentMoniker": "lab-1.client\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\App.jsx",
-              "RelativeToolTip": "lab-1.client\\src\\App.jsx",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-08-10T13:47:53.367Z",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Lab-1.Server\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T21:20:15.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "OrderProduct.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\OrderProduct.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Models\\OrderProduct.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\OrderProduct.cs",
+              "RelativeToolTip": "Lab-1.Server\\Models\\OrderProduct.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA+wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T13:07:51.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab-1.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\appsettings.json",
+              "RelativeToolTip": "Lab-1.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-15T14:22:59.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "authService.js",
               "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\services\\authService.js",
               "RelativeDocumentMoniker": "lab-1.client\\src\\services\\authService.js",
               "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\services\\authService.js",
               "RelativeToolTip": "lab-1.client\\src\\services\\authService.js",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAmwFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-08-10T13:38:26.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "OrdersPage.jsx",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\pages\\OrdersPage.jsx",
+              "RelativeDocumentMoniker": "lab-1.client\\src\\pages\\OrdersPage.jsx",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\pages\\OrdersPage.jsx",
+              "RelativeToolTip": "lab-1.client\\src\\pages\\OrdersPage.jsx",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAmwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-08-11T13:19:10.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartPage.jsx",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\pages\\CartPage.jsx",
+              "RelativeDocumentMoniker": "lab-1.client\\src\\pages\\CartPage.jsx",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\pages\\CartPage.jsx",
+              "RelativeToolTip": "lab-1.client\\src\\pages\\CartPage.jsx",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAmwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-08-11T11:13:07.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "orderService.js",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\services\\orderService.js",
+              "RelativeDocumentMoniker": "lab-1.client\\src\\services\\orderService.js",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\services\\orderService.js",
+              "RelativeToolTip": "lab-1.client\\src\\services\\orderService.js",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-11T11:26:15.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShippingAddressesController.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Controllers\\ShippingAddressesController.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Controllers\\ShippingAddressesController.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Controllers\\ShippingAddressesController.cs",
+              "RelativeToolTip": "Lab-1.Server\\Controllers\\ShippingAddressesController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T14:18:10.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Lab-1.Server\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T14:16:02.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Models\\Product.cs",
+              "RelativeToolTip": "Lab-1.Server\\Models\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:00:47.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\DTOs\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\DTOs\\ProductCreateDto.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\DTOs\\ProductCreateDto.cs",
+              "RelativeToolTip": "Lab-1.Server\\DTOs\\ProductCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:01:18.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "RegisterPage.jsx",
               "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\pages\\RegisterPage.jsx",
               "RelativeDocumentMoniker": "lab-1.client\\src\\pages\\RegisterPage.jsx",
@@ -64,21 +236,91 @@
               "RelativeToolTip": "lab-1.client\\src\\pages\\RegisterPage.jsx",
               "ViewState": "AgIAAF8AAAAAAAAAAAAmwHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-08-10T13:38:10.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T13:38:10.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
+              "Title": "ShopPage.jsx",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\pages\\ShopPage.jsx",
+              "RelativeDocumentMoniker": "lab-1.client\\src\\pages\\ShopPage.jsx",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\pages\\ShopPage.jsx",
+              "RelativeToolTip": "lab-1.client\\src\\pages\\ShopPage.jsx",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAwwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-08-11T11:11:05.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminProductsPage.jsx",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\admin\\AdminProductsPage.jsx",
+              "RelativeDocumentMoniker": "lab-1.client\\src\\admin\\AdminProductsPage.jsx",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\admin\\AdminProductsPage.jsx",
+              "RelativeToolTip": "lab-1.client\\src\\admin\\AdminProductsPage.jsx",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAwwMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-08-12T14:00:14.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "productService.js",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\services\\productService.js",
+              "RelativeDocumentMoniker": "lab-1.client\\src\\services\\productService.js",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\services\\productService.js",
+              "RelativeToolTip": "lab-1.client\\src\\services\\productService.js",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-11T20:49:45.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Lab-1.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\Lab-1.Server\\Program.cs",
+              "RelativeToolTip": "Lab-1.Server\\Program.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAwwHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:37:33.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Navbar.jsx",
               "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\components\\Navbar.jsx",
               "RelativeDocumentMoniker": "lab-1.client\\src\\components\\Navbar.jsx",
               "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\components\\Navbar.jsx",
               "RelativeToolTip": "lab-1.client\\src\\components\\Navbar.jsx",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAmwAABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-08-04T15:31:02.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T15:31:02.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "cartService.js",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\services\\cartService.js",
+              "RelativeDocumentMoniker": "lab-1.client\\src\\services\\cartService.js",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\services\\cartService.js",
+              "RelativeToolTip": "lab-1.client\\src\\services\\cartService.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-11T11:23:53.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "lab-1.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\agon\\Desktop\\Lab1\\lab-1.client\\src\\App.jsx",
+              "RelativeToolTip": "lab-1.client\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-08-10T13:47:53.367Z"
             }
           ]
         }

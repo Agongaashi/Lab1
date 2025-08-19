@@ -77,11 +77,19 @@ namespace Lab_1.Server.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
@@ -96,29 +104,6 @@ namespace Lab_1.Server.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("OrderProducts");
-                });
-
-            modelBuilder.Entity("Lab_1.Server.Models.Product", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(65,30)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CategoryId");
-
-                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Lab_1.Server.Models.RefreshToken", b =>
@@ -205,6 +190,32 @@ namespace Lab_1.Server.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(65,30)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Products");
+                });
+
             modelBuilder.Entity("Lab_1.Server.Models.Order", b =>
                 {
                     b.HasOne("Lab_1.Server.Models.ShippingAddress", "ShippingAddress")
@@ -232,7 +243,7 @@ namespace Lab_1.Server.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Lab_1.Server.Models.Product", "Product")
+                    b.HasOne("Product", "Product")
                         .WithMany("OrderProducts")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -241,17 +252,6 @@ namespace Lab_1.Server.Migrations
                     b.Navigation("Order");
 
                     b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("Lab_1.Server.Models.Product", b =>
-                {
-                    b.HasOne("Lab_1.Server.Models.Category", "Category")
-                        .WithMany("Products")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("Lab_1.Server.Models.RefreshToken", b =>
@@ -287,6 +287,17 @@ namespace Lab_1.Server.Migrations
                     b.Navigation("Role");
                 });
 
+            modelBuilder.Entity("Product", b =>
+                {
+                    b.HasOne("Lab_1.Server.Models.Category", "Category")
+                        .WithMany("Products")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
             modelBuilder.Entity("Lab_1.Server.Models.Category", b =>
                 {
                     b.Navigation("Products");
@@ -297,14 +308,14 @@ namespace Lab_1.Server.Migrations
                     b.Navigation("OrderProducts");
                 });
 
-            modelBuilder.Entity("Lab_1.Server.Models.Product", b =>
-                {
-                    b.Navigation("OrderProducts");
-                });
-
             modelBuilder.Entity("Lab_1.Server.Models.ShippingAddress", b =>
                 {
                     b.Navigation("Orders");
+                });
+
+            modelBuilder.Entity("Product", b =>
+                {
+                    b.Navigation("OrderProducts");
                 });
 #pragma warning restore 612, 618
         }

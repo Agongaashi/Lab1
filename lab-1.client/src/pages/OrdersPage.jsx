@@ -1,70 +1,110 @@
-import { useEffect, useState } from "react";
+ï»¿import { useEffect, useState } from "react";
 import { getOrdersByUser, deleteOrder } from "../services/orderService";
 
 export default function OrdersPage() {
     const [orders, setOrders] = useState([]);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState("");
 
     useEffect(() => {
-        loadOrders();
+        fetchOrders();
     }, []);
 
-    const loadOrders = async () => {
-        try {
-            const data = await getOrdersByUser();
-            setOrders(data);
-        } catch (error) {
-            console.error("Gabim gjatë marrjes së porosive:", error);
-        }
+    const fetchOrders = () => {
+        setLoading(true);
+        getOrdersByUser()
+            .then((data) => {
+                setOrders(Array.isArray(data) ? data : []);
+                setLoading(false);
+            })
+            .catch((err) => {
+                console.error("Gabim gjatÃ« marrjes sÃ« porosive:", err);
+                setError("Nuk mund tÃ« marrim porositÃ«.");
+                setLoading(false);
+            });
     };
 
-    const handleCancelOrder = async (orderId) => {
-        if (!window.confirm("A jeni të sigurt që dëshironi të anuloni këtë porosi?"))
-            return;
-        try {
-            await deleteOrder(orderId);
-            loadOrders();
-        } catch (error) {
-            console.error("Gabim gjatë fshirjes së porosisë:", error);
-        }
+    const handleDelete = (orderId) => {
+        if (!window.confirm("A jeni tÃ« sigurt qÃ« dÃ«shironi tÃ« anuloni kÃ«tÃ« porosi?")) return;
+
+        deleteOrder(orderId)
+            .then(() => fetchOrders())
+            .catch((err) => {
+                console.error("Gabim gjatÃ« fshirjes sÃ« porosisÃ«:", err);
+                alert("Gabim gjatÃ« fshirjes sÃ« porosisÃ«. Kontrollo token-in tuaj.");
+            });
     };
+
+    if (loading) return <p>Duke ngarkuar...</p>;
+    if (error) return <p>{error}</p>;
 
     return (
-        <div className="p-6">
-            <h1 className="text-3xl font-bold mb-4">Porositë e Mia</h1>
+        <div className="p-6 max-w-5xl mx-auto">
+            <h1 className="text-3xl font-bold mb-6">PorositÃ« e Mia</h1>
+
             {orders.length === 0 ? (
-                <p>Ende nuk keni bërë asnjë porosi.</p>
+                <p>Nuk ka porosi.</p>
             ) : (
-                orders.map((order) => (
-                    <div key={order.id} className="border p-4 mb-3 rounded">
-                        <p>
-                            <strong>Porosia #{order.id}</strong> -{" "}
-                            {new Date(order.orderDate).toLocaleDateString("sq-AL")}
-                        </p>
-                        <p>
-                            <strong>Adresë Transporti:</strong> {order.shippingStreet},{" "}
-                            {order.shippingCity}
-                        </p>
-                        <p>
-                            <strong>Totali:</strong> €{order.totalPrice.toFixed(2)}
-                        </p>
+                <div className="space-y-6">
+                    {orders.map((order) => (
+                        <div key={order?.orderId} className="border rounded shadow p-4">
+                            {/* Info e porosisÃ« */}
+                            <div className="flex justify-between items-center mb-4">
+                                <div>
+                                    <p className="font-bold text-lg">Porosia # {order?.orderId || "-"}</p>
+                                    <p>PÃ«rdoruesi: {order?.userName || "-"}</p>
+                                    <p>
+                                        AdresÃ«: {order?.shippingStreet || "-"}, {order?.shippingCity || "-"},{" "}
+                                        {order?.shippingCountry || "-"} - {order?.shippingPostalCode || "-"}
+                                    </p>
+                                    <p>Totali: â‚¬{order?.totalPrice?.toFixed(2) || "0.00"}</p>
+                                </div>
+                                <button
+                                    onClick={() => handleDelete(order?.orderId)}
+                                    className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 transition"
+                                >
+                                    Anulo
+                                </button>
+                            </div>
 
-                        <p className="mt-2 font-semibold">Produktet:</p>
-                        <ul className="list-disc list-inside">
-                            {order.products?.map((p, index) => (
-                                <li key={index}>
-                                    {p.productName} &mdash; Sasi: {p.quantity} &mdash; Çmimi njësi: €{p.unitPrice.toFixed(2)} &mdash; Subtotali: €{(p.unitPrice * p.quantity).toFixed(2)}
-                                </li>
-                            ))}
-                        </ul>
+                            {/* Lista e produkteve me imazhe */}
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
+                                {Array.isArray(order?.products) && order.products.length > 0 ? (
+                                    order.products.map((item, idx) => (
+                                        <div
+                                            key={idx}
+                                            className="bg-gray-50 p-3 rounded flex flex-col items-center shadow hover:shadow-lg transition"
+                                        >
+                                            {item.imageUrl ? (
+                                                <img
+                                                    src={item.imageUrl || "/images/default.png"}
+                                                    alt={item.name || "Produkt"}
+                                                    className="h-28 w-28 object-cover rounded mb-2"
+                                                    onError={(e) => {
+                                                        if (e.currentTarget.src !== window.location.origin + "/images/default.png") {
+                                                            e.currentTarget.src = "/images/default.png";
+                                                        }
+                                                    }}
+                                                />
+                                            ) : (
+                                                <div className="h-28 w-28 bg-gray-200 rounded flex items-center justify-center text-gray-500 text-xs mb-2">
+                                                    No Image
+                                                </div>
+                                            )}
 
-                        <button
-                            onClick={() => handleCancelOrder(order.id)}
-                            className="mt-3 bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700"
-                        >
-                            Anulo Porosinë
-                        </button>
-                    </div>
-                ))
+
+                                            <p className="font-bold text-center">{item.name}</p>
+                                            <p className="text-sm text-gray-600">â‚¬{item.unitPrice.toFixed(2)}</p>
+                                            <p className="text-sm text-gray-500">Sasia: {item.quantity}</p>
+                                        </div>
+                                    ))
+                                ) : (
+                                    <p className="text-gray-500 text-sm">Ky porosi nuk ka produkte.</p>
+                                )}
+                            </div>
+                        </div>
+                    ))}
+                </div>
             )}
         </div>
     );

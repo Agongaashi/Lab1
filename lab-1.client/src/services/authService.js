@@ -46,7 +46,7 @@ export function getUserFromToken() {
         const user = JSON.parse(jsonPayload);
 
         // Log për debug
-        console.log("Decoded token payload:", user);
+        //console.log("Decoded token payload:", user);
 
         return user;
     } catch (error) {

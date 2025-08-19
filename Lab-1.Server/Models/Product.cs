@@ -1,23 +1,24 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Lab_1.Server.Models;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Lab_1.Server.Models
+public class Product
 {
-    public class Product
-    {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int Id { get; set; }
 
-        public required string Name { get; set; } = string.Empty;
-        public decimal Price { get; set; }
+    public required string Name { get; set; } = string.Empty;
+    public decimal Price { get; set; }
 
-        // Foreign Key - Category
-        public int CategoryId { get; set; }
-        [ForeignKey("CategoryId")]
-        public Category Category { get; set; } = null!;
+    // Emri i file-it të imazhit (ruhet fizikisht në server)
+    public string? ImageName { get; set; }
 
-        // Lidhja me OrderProducts
-        public ICollection<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
-    }
+    // Foreign Key - Category
+    public int CategoryId { get; set; }
+    [ForeignKey("CategoryId")]
+    public Category Category { get; set; } = null!;
+
+   
+    public ICollection<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
 }

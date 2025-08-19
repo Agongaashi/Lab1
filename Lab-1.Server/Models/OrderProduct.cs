@@ -21,5 +21,9 @@ namespace Lab_1.Server.Models
         // Sasia e porositur
         public int Quantity { get; set; }
         public decimal UnitPrice { get; set; }
+
+        // ✅ Shtojmë emrin dhe imazhin e produktit
+        public string ProductName { get; set; } = string.Empty;
+        public string ImageUrl { get; set; } = string.Empty;
     }
 }
