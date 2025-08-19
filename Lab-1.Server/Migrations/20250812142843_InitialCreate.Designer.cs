@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Lab_1.Server.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250808081653_AddUnitPriceToOrderProduct")]
-    partial class AddUnitPriceToOrderProduct
+    [Migration("20250812142843_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

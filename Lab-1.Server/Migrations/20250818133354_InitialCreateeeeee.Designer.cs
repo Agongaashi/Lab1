@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Lab_1.Server.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250806201714_RemoveOrderItem")]
-    partial class RemoveOrderItem
+    [Migration("20250818133354_InitialCreateeeeee")]
+    partial class InitialCreateeeeee
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -59,6 +59,9 @@ namespace Lab_1.Server.Migrations
                     b.Property<int>("ShippingAddressId")
                         .HasColumnType("int");
 
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(65,30)");
+
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
@@ -71,27 +74,39 @@ namespace Lab_1.Server.Migrations
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("Lab_1.Server.Models.Product", b =>
+            modelBuilder.Entity("Lab_1.Server.Models.OrderProduct", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<decimal>("Price")
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("UnitPrice")
                         .HasColumnType("decimal(65,30)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoryId");
+                    b.HasIndex("OrderId");
 
-                    b.ToTable("Products");
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("OrderProducts");
                 });
 
             modelBuilder.Entity("Lab_1.Server.Models.RefreshToken", b =>
@@ -178,6 +193,32 @@ namespace Lab_1.Server.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(65,30)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Products");
+                });
+
             modelBuilder.Entity("Lab_1.Server.Models.Order", b =>
                 {
                     b.HasOne("Lab_1.Server.Models.ShippingAddress", "ShippingAddress")
@@ -197,15 +238,23 @@ namespace Lab_1.Server.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Lab_1.Server.Models.Product", b =>
+            modelBuilder.Entity("Lab_1.Server.Models.OrderProduct", b =>
                 {
-                    b.HasOne("Lab_1.Server.Models.Category", "Category")
-                        .WithMany("Products")
-                        .HasForeignKey("CategoryId")
+                    b.HasOne("Lab_1.Server.Models.Order", "Order")
+                        .WithMany("OrderProducts")
+                        .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Category");
+                    b.HasOne("Product", "Product")
+                        .WithMany("OrderProducts")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Lab_1.Server.Models.RefreshToken", b =>
@@ -241,14 +290,35 @@ namespace Lab_1.Server.Migrations
                     b.Navigation("Role");
                 });
 
+            modelBuilder.Entity("Product", b =>
+                {
+                    b.HasOne("Lab_1.Server.Models.Category", "Category")
+                        .WithMany("Products")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
             modelBuilder.Entity("Lab_1.Server.Models.Category", b =>
                 {
                     b.Navigation("Products");
                 });
 
+            modelBuilder.Entity("Lab_1.Server.Models.Order", b =>
+                {
+                    b.Navigation("OrderProducts");
+                });
+
             modelBuilder.Entity("Lab_1.Server.Models.ShippingAddress", b =>
                 {
                     b.Navigation("Orders");
+                });
+
+            modelBuilder.Entity("Product", b =>
+                {
+                    b.Navigation("OrderProducts");
                 });
 #pragma warning restore 612, 618
         }

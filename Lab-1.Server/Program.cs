@@ -114,6 +114,8 @@ app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseStaticFiles(); // <--- kjo lejon akses statik për wwwroot
+
 
 app.MapControllers();
 
